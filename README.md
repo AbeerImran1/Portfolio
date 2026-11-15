@@ -1,20 +1,33 @@
 # Personal Portfolio
 
-A modern, responsive personal portfolio website built to showcase my software engineering projects, skills, and experience. 
+A modern, responsive personal portfolio website built to showcase my software engineering projects, skills, cloud infrastructure experience. 
 
 ## Stack
 - **Framework:** [Next.js](https://nextjs.org/) (App Router)
 - **Language:** TypeScript
 - **Styling:** Tailwind CSS
-- **Font:** Inter (via `next/font`)
-- **Deployment:** (Coming soon: AWS S3 + CloudFront)
-- **CI/CD:** (Coming soon: GitHub Actions)
+- **Deployment:** AWS S3 + CloudFront (Planned)
+- **CI/CD:** GitHub Actions (Planned)
 
 ## The Features
 - Sleek, dark-mode first design
 - Fully responsive layout for mobile and desktop
 - Optimized font loading and caching using Next.js
 - Showcases flagship projects (e.g., Real-time Matchmaking System)
+
+
+## Roadmap 
+- [x] Initialize Next.js project with TypeScript and Tailwind.
+- [x] Build layout, responsive Navbar, and Hero section.
+- [x] Add Projects and Skills grid sections.
+- [ ] Add Footer with social links (GitHub, LinkedIn).
+- [ ] Provision AWS S3 bucket and CloudFront distribution.
+- [ ] Write GitHub Actions workflow for automated deployment on push to `main`.
+- [ ] Configure GitHub OIDC for secure, passwordless AWS authentication.
+- [ ] Point custom domain and set up SSL.
+
+
+
 
 ## Local Development
 
