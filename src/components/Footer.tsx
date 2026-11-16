@@ -1,5 +1,9 @@
+"use client"; //Tells Next.js to run this components in the browser.
+
+import { useState, useEffect } from "react";
+
 export default function Footer() {
-    const currentYear = new Date().getFullYear();
+    const [year, setYear] = useState(2026);
 
     return (
      <footer className="w-full bg-slate-950 text-slate-400 py-8 mt-auto border-t border-slate-800">
