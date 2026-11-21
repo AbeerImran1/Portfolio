@@ -8,29 +8,26 @@ A highly stylized, fully responsive personal portfolio website built to showcase
 
 
 ## Stack
-- **Framework:** [Next.js](https://nextjs.org/) (App Router)
+- **Framework:** [Next.js](https://nextjs.org/) (App Router, Static Export)
 - **Language:** TypeScript
-- **Styling:** Tailwind CSS
-- **Deployment:** AWS S3 + CloudFront (Planned)
-- **CI/CD:** GitHub Actions (Planned)
-
+- **Styling:** Tailwind CSS (Custom UI, Comic-book aesthetic)
+- **Deployment:** Vercel (CI/CD via GitHub)
+- **Font:** Bangers (via `next/font`)
+- **Features:** Dynamic audio player with volume control and auto-playlist.
+- 
 ## The Features
-- Sleek, dark-mode first design
-- Fully responsive layout for mobile and desktop
-- Optimized font loading and caching using Next.js
-- Showcases flagship projects (e.g., Real-time Matchmaking System)
+- **Persona 5 UI Overhaul:** Custom slanted layouts, halftone background patterns, and stark red/black/white color palette.
+- **Interactive Menu:** Aggressive hover states and physical translation of UI elements.
+- **Music Player:** A floating audio player that loops through a custom OST playlist.
+- **Static & Fast:** Built with `output: "export"` for blazing-fast page loads and perfect SEO scores.
 
 
 ## Roadmap 
-- [x] Initialize Next.js project with TypeScript and Tailwind.
-- [x] Build layout, responsive Navbar, and Hero section.
-- [x] Add Projects and Skills grid sections.
-- [ ] Add Footer with social links (GitHub, LinkedIn).
-- [ ] Provision AWS S3 bucket and CloudFront distribution.
-- [ ] Write GitHub Actions workflow for automated deployment on push to `main`.
-- [ ] Configure GitHub OIDC for secure, passwordless AWS authentication.
-- [ ] Point custom domain and set up SSL.
-
+☑ Initialize Next.js project with TypeScript and Tailwind.
+☑ Complete Persona 5 UI overhaul.
+☑ Implement custom music player.
+☑ Deploy to Vercel with custom domain.
+□ Add "Contact" form via an API route (requires removing static export).
 
 
 
@@ -41,3 +38,20 @@ To run this project locally:
 1. Clone the repository:
    ```bash
    git clone https://github.com/abeer-imran/Portfolio.git
+
+2. Navigate to the directory:
+   cd Portfolio
+
+3. Install dependencies:
+   npm install
+
+4. Start the development server:
+   npm run dev
+
+5. Open http://localhost:3000 in your browser.
+
+   **Run these commands to save it:**
+```bash
+git add README.md
+git commit -m "docs: update README with live URL and new features"
+git push origin main
