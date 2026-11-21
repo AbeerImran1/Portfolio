@@ -1,7 +1,14 @@
 export default function Home() {
   return (
-    <main className="flex-1 w-full relative overflow-hidden bg-[#E60012] min-h-screen">
-      
+    <main 
+      className="flex-1 w-full relative overflow-hidden bg-[#E60012] min-h-screen"
+      style={{
+        backgroundImage: "url('/background.jpg')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+      }}
+    >
       {/* --- BACKGROUND GRAPHICS --- */}
       {/* 1. Halftone Dot Pattern (Comic Book Style) */}
       <div 
@@ -23,15 +30,15 @@ export default function Home() {
         
         {/* Top Header / Title */}
         <div className="flex flex-col items-start mb-20">
-          <div className="bg-white text-black px-4 py-1 border-4 border-black -rotate-2 font-bold text-xl mb-4 shadow-[4px_4px_0px_0px_#000]">
+          <div className="bg-white text-black px-4 py-1 border-4 border-black -rotate-2 font-bold text-xl mb-4 shadow-[4px_4px_0px_0px_#000] flex-shrink-0">
             SOFTWARE ENGINEER
           </div>
           
           <div className="relative inline-block">
             {/* The jagged red box behind the text */}
             <div className="absolute inset-0 bg-red-600 -skew-x-12 -rotate-2 border-4 border-black shadow-[10px_10px_0px_0px_#000]"></div>
-            <h1 className="relative text-8xl md:text-9xl text-white font-black uppercase tracking-tighter italic -skew-x-12 px-8 py-4 drop-shadow-[4px_4px_0px_rgba(0,0,0,1)]">
-              ABEER IM
+            <h1 className="relative text-7xl md:text-8xl lg:text-9xl text-white font-black uppercase tracking-tighter italic -skew-x-12 px-8 py-4 drop-shadow-[4px_4px_0px_rgba(0,0,0,1)] whitespace-nowrap">
+              ABEER IMRAN
             </h1>
           </div>
         </div>
