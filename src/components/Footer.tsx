@@ -11,14 +11,14 @@ export default function Footer() {
         
         {/* Copyright */}
         <div className="text-sm">
-        {currentYear} Abeer Imran. All rights reserved.
+        &copy; {year} Abeer Imran. All rights reserved.
         </div>
 
         {/* Social Links */}
         <div className="flex gap-6 text-sm font-medium">
           <a 
             href="https://github.com/abeer-imran" 
-            target="_blank" 
+            target="_blis tank" 
             rel="noopener noreferrer"
             className="hover:text-blue-400 transition-colors"
           >

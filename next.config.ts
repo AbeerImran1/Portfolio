@@ -3,7 +3,17 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   output: "export",
   images: {
-    unoptimized: true, // Required for static export if using the Next.js Image component
-  }
-}
+    unoptimized: true,
+  },
+  // This is the new Turbopack configuration for Tailwind
+  turbopack: {
+    rules: {
+      "*.css": {
+        loaders: ["@tailwindcss/turbopack"],
+        as: "*.css",
+      },
+    },
+  },
+};
+
 export default nextConfig;
