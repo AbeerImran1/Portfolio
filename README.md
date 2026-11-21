@@ -1,6 +1,11 @@
-# Personal Portfolio
+# A Persona 5 themed Personal Portfolio
 
 A modern, responsive personal portfolio website built to showcase my software engineering projects, skills, cloud infrastructure experience. 
+
+A highly stylized, fully responsive personal portfolio website built to showcase my software engineering projects, skills, and experience. 
+
+🔗 **Live Site:** [www.abeerimranportfolio.com](https://www.abeerimranportfolio.com) *(Note: Main domain DNS is propagating, use the www link for now!)*
+
 
 ## Stack
 - **Framework:** [Next.js](https://nextjs.org/) (App Router)
